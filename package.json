@@ -1,0 +1,29 @@
+{
+  "name": "simplespi",
+  "version": "0.0.1",
+  "description": "a simple and easy to use SPI interface for node.js (for raspberry pi etc)",
+  "main": "build/Release/simplespi.node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "homepage": "https://github.com/fjw/node-simplespi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fjw/node-simplespi.git"
+  },
+  "keywords": [
+    "spi",
+    "raspberry",
+    "pi",
+    "raspberrypi",
+    "rpi",
+    "adafruit",
+    "led",
+    "pwm"
+  ],
+  "author": "Frédéric Worm",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gypfile": true
+}
