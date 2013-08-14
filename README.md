@@ -3,7 +3,8 @@ node-simplespi
 
 This is a simple and easy to use **SPI** module for **node.js**.
 
-I wrote this to have an easy way to control a **Adafruit PWM LED driver** with my **Raspberry Pi** ( [node-leddriver](https://github.com/fjw/node-leddriver) ), but it **should also work with different clients and hosts**.
+I wrote this to have an easy way to control a **Adafruit PWM LED driver** with my **Raspberry Pi** ([node-leddriver](https://github.com/fjw/node-leddriver)), but it **should also work with different clients and hosts**.
+It uses a CLK frequency of 500kHz.
 
 ### Installation
 
